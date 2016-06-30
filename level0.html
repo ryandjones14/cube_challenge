@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unblock Cube</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/idea2.css">
+  <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+  <script src="./javascripts/script.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+  <div class="rules">
+    <ul>
+      <li>Goal: move your car, the green one, to the exit.</li>
+      <li>To move a car up and down, select the car and click "W" and "S", respectively.</li>
+      <li>To move a car left and right, select the car and click "A" and "D", respectively.</li>
+    </ul>
+  </div>
+  <div id="board">
+    <div id="myCar" class="horiz car active"></div>
+    <div id="a" class="horiz car">a</div>
+    <div id="b" class="horiz horiz-long car">b</div>
+    <div id="c" class="horiz horiz-long car">c</div>
+    <div id="d" class="vert car">d</div>
+    <div id="e" class="vert car">e</div>
+    <div id="f" class="vert vert-long car">f</div>
+    <div id="g" class="vert vert-long car">g</div>
+  </div>
+  <div class="exit">
+    <p>EXIT</p>
+  </div>
+  <div class="nextLevel hide">
+    <a href="level1.html"><button>NEXT</button></a>
+  </div>
+</body>
+</html>

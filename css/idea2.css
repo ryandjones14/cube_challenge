@@ -1,0 +1,153 @@
+body{
+  position: relative;
+}
+#board{
+  border: 2px solid black;
+  height: 364px;
+  width: 364px;
+  margin: 5% auto;
+  position: relative;
+  background: gray;
+}
+#myCar{
+  background-color: green;
+  position: relative;
+  top: 120px;
+}
+.car{
+  border: 1px solid black;
+  background-color: white;
+}
+.horiz{
+  width: 120px;
+  height: 60px;
+}
+  .horiz-long{
+    width: 180px;
+    height: 60px;
+  }
+.vert{
+  width: 60px;
+  height: 120px;
+}
+  .vert-long{
+    width: 60px;
+    height: 180px;
+  }
+.active{
+  border: 1px dashed yellow;
+}
+.exit{
+  color: red;
+  font-size: 20px;
+  position: relative;
+  bottom: 625px;
+  left: 200px;
+  -webkit-transform: rotate(270deg);
+}
+/*Positioning for cars*/
+/*Level 0*/
+#a{
+  position: relative;
+  bottom: -120px;
+  left: 120px;
+}
+#b{
+  position: relative;
+  bottom: -180px;
+}
+#c{
+  position: relative;
+  bottom: 180px;
+  left: 180px;
+}
+#d{
+  position: relative;
+  bottom: 60px;
+}
+#e{
+  position: relative;
+  bottom: 120px;
+  left: 240px;
+}
+#f{
+  position: relative;
+  bottom: 300px;
+  left: 300px;
+}
+#g{
+  position: relative;
+  bottom: 660px;
+  left: 120px;
+}
+/*Level 1*/
+#a1{
+  position: relative;
+  bottom: -120px;
+  left: 240px;
+}
+#b1{
+  position: relative;
+  bottom: -180px;
+}
+#c1{
+  position: relative;
+  bottom: 180px;
+  left: 120px;
+}
+#d1{
+  position: relative;
+  bottom: 180px;
+  left: 120px;
+}
+#e1{
+  position: relative;
+  bottom: 240px;
+  left: 60px;
+}
+#f1{
+  position: relative;
+  bottom: 540px;
+  left: 240px;
+}
+#g1{
+  position: relative;
+  bottom: 720px;
+  left: 180px;
+}
+/*Level 2*/
+#a2{
+  position: relative;
+  bottom: 60px;
+  left: 60px;
+}
+#b2{
+  position: relative;
+  bottom: 120px;
+  left: 180px;
+}
+#c2{
+  position: relative;
+  bottom: -60px;
+  left: 0px;
+}
+#d2{
+  position: relative;
+  bottom: 240px;
+  left: 0px;
+}
+#e2{
+  position: relative;
+  bottom: 300px;
+  left: 120px;
+}
+#f2{
+  position: relative;
+  bottom: 360px;
+  left: 240px;
+}
+#g2{
+  position: relative;
+  bottom: 540px;
+  left: 180px;
+}

@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+  position: relative;
+}
+.wrapper{
+  position: relative;
+  top: 32px;
+  border: 2px solid black;
+}
+.column{
+  padding: 0;
+}
+.square{
+  height: 80px;
+  margin: 0;
+}
+.gray{
+  background-color: gray;
+}
+#exit{
+  border-right: 20px solid green;
+}
+.myCar{
+  background-color: green;
+}

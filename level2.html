@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cube Challenge</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/idea2.css">
+  <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+  <script src="./javascripts/script.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+  <div class="rules">
+    <ul>
+      <li>Goal: move your car, the green one, to the exit.</li>
+      <li>To move a car up and down, select the car and click "W" and "S", respectively.</li>
+      <li>To move a car left and right, select the car and click "A" and "D", respectively.</li>
+    </ul>
+  </div>
+  <div id="board" class="level1">
+    <div id="myCar" class="horiz car active"></div>
+    <div id="a2" class="horiz car">a2</div>
+    <div id="b2" class="horiz car">b2</div>
+    <div id="c2" class="horiz horiz-long car">c2</div>
+    <div id="d2" class="vert car">d2</div>
+    <div id="e2" class="vert car">e2</div>
+    <div id="f2" class="vert vert-long car">f2</div>
+    <div id="g2" class="vert vert-long car">g2</div>
+  </div>
+  <div class="exit">
+    <p>EXIT</p>
+  </div>
+  <div class="nextLevel hide">
+    <a href="#"><button>NEXT</button></a>
+  </div>
+</body>
+</html>
